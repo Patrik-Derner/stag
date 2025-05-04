@@ -12,4 +12,5 @@ public class Action
     public String department;
     @SerializedName("ucitIdno")
     public long teacherId;
+    public String room;
 }

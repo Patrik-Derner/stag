@@ -32,5 +32,10 @@ public class Api {
             return null;
         }
     }
+
+    public static String getSpecializations(int year)
+    {
+        return getFromUri(baseUrl+"/prijimacky/getPrijimaciObory?outputFormat=JSON&rok="+year+"&jenAktualni=false");
+    }
 }
 
